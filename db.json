@@ -2,6 +2,7 @@
   "vitrines" : [
       {
           "titulo": "Lançamentos",
+          "descricao": "Lançamentos de ponta, separados para você",
           "cor": "#008000",
           "filtros": {
               "oportunidades": [
@@ -10,14 +11,98 @@
           },
           "produtos": [
               {
-                  "descComp": "Produto de teste 123",
-                  "emb": 10,
-                  "id": "1"
+                  "id": "3",
+                  "descComp": "3 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 100,
               },
               {
-                  "descComp": "Produto de teste 456",
+                  "id": "25",
+                  "descComp": "25 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 12,
+              },
+              {
+                  "id": "7",
+                  "descComp": "7 ABRACADEIRA P/POSTE 13X15",
                   "emb": 20,
-                  "id": "2"
+              },
+              {
+                  "id": "10",
+                  "descComp": "10 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 5,
+              },
+              {
+                  "id": "16",
+                  "descComp": "16 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 10,
+              },
+              {
+                  "id": "23",
+                  "descComp": "23 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 50,
+              }
+          ]
+      },
+      {
+          "titulo": "Promoções",
+          "descricao": "Aproveite as promoções para sua região",
+          "cor": "##0000b2",
+          "filtros": {
+              "oportunidades": [
+                  "promocao"
+              ]
+          },
+          "produtos": [
+              {
+                  "id": "3",
+                  "descComp": "3 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 100,
+              },
+              {
+                  "id": "25",
+                  "descComp": "25 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 12,
+              }
+          ]
+      },
+      {
+          "titulo": "Outlet",
+          "descricao": "Produtos em outlet próximos a você",
+          "cor": "#911",
+          "filtros": {
+              "oportunidades": [
+                  "outlet"
+              ]
+          },
+          "produtos": [
+              {
+                  "id": "3",
+                  "descComp": "3 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 100,
+              },
+              {
+                  "id": "25",
+                  "descComp": "25 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 12,
+              },
+              {
+                  "id": "7",
+                  "descComp": "7 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 20,
+              },
+              {
+                  "id": "10",
+                  "descComp": "10 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 5,
+              },
+              {
+                  "id": "16",
+                  "descComp": "16 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 10,
+              },
+              {
+                  "id": "23",
+                  "descComp": "23 ABRACADEIRA P/POSTE 13X15",
+                  "emb": 50,
               }
           ]
       }
