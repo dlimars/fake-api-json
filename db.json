@@ -44,7 +44,7 @@
         },
         {
             "titulo": "Promoções",
-            "cor": "##0000b2",
+            "cor": "#0000b2",
             "descricao": "Aproveite as promoções para sua região",
             "filtros": {
                 "oportunidades": [
