@@ -1,0 +1,25 @@
+{
+  "vitrines" : [
+      {
+          "titulo": "Lançamentos",
+          "cor": "#008000",
+          "filtros": {
+              "oportunidades": [
+                  "lancamento"
+              ]
+          },
+          "produtos": [
+              {
+                  "descComp": "Produto de teste 123",
+                  "emb": 10,
+                  "id": "1"
+              },
+              {
+                  "descComp": "Produto de teste 456",
+                  "emb": 20,
+                  "id": "2"
+              }
+          ]
+      }
+  ]
+}
