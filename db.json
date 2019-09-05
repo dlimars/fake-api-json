@@ -1,4 +1,7 @@
 {
+    "cancelar-pedido" : {
+        "success" : true
+    },
     "vitrines": [
         {
             "titulo": "Lançamentos",
