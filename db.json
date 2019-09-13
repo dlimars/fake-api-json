@@ -1,4 +1,55 @@
 {
+    "canais-atendimento" : [
+        {
+            "id" : 1,
+            "imagem": "https://api-site.construja.com.br/images/contatochatbot-1557348191747.png",
+            "url": "https://sac-construja.ascbrazil.com.br/Chat/id/Construja_Distribuidora",
+            "desc": "Chat",
+            "novaAba": true
+        }, {
+            "id" : 2,
+            "imagem": "https://api-site.construja.com.br/images/contatowhatsapp-1557348267249.png",
+            "url": "https://api.whatsapp.com/send?phone=5511985783012&text=Ol%C3%A1",
+            "desc": "Whatsapp",
+            "novaAba": false
+        }, {
+            "id" : 3,
+            "imagem": "https://api-site.construja.com.br/images/contatotelegram-1557348293145.png",
+            "url": "https://telegram.me/Construja_bot",
+            "desc": "Telegram",
+            "novaAba": false
+        }, {
+            "id" : 4,
+            "imagem": "https://api-site.construja.com.br/images/contatoemail-1557348314603.png",
+            "url": "mailto:faleconosco.construja@gmail.com.br",
+            "desc": "Email",
+            "novaAba": false
+        }, {
+            "id" : 5,
+            "imagem": "https://api-site.construja.com.br/images/contatomessenger-1557348360642.png",
+            "url": "https://m.me/164378027086964",
+            "desc": "Messenger",
+            "novaAba": false
+        }, {
+            "id" : 6,
+            "imagem": "https://api-site.construja.com.br/images/contatobottelegram-1557348429407.png",
+            "url": "https://telegram.me/Construja_bot",
+            "desc": "BotTelegram",
+            "novaAba": false
+        }, {
+            "id" : 7,
+            "imagem": "https://api-site.construja.com.br/images/contatoskype-1557348509381.png",
+            "url": "https://join.skype.com/bot/f083b05d-63c8-4e71-b018-fd3376941f9e",
+            "desc": "Skype",
+            "novaAba": false
+        }, {
+            "id" : 8,
+            "imagem": "https://api-site.construja.com.br/images/contatotelefone-1557348556623.png",
+            "url": "tel:11 2732-2000 / 0300 10 20 000 / 1198578-3012",
+            "desc": "Contato",
+            "novaAba": false
+        }
+    ],
     "cancelar-pedido" : {
         "success" : true
     },
