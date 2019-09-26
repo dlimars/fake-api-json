@@ -163,6 +163,7 @@
     ],
     "adm-vitrines": [
         {
+            "id": "1",
             "label": "Lançamentos",
             "titulo": "Lançamentos",
             "descricao": "Lançamentos de ponta, separados para você",
@@ -175,6 +176,7 @@
             "valor" : 1
         },
         {
+            "id": "2",
             "label": "Outlets",
             "titulo": "Saldão",
             "descricao": "Saldão de ofertas",
@@ -189,6 +191,7 @@
     ],
     "filtros-vitrines": [
         {
+            "id": "1",
             "label": "Lançamentos",
             "titulo": "Lançamentos",
             "descricao": "Lançamentos de ponta, separados para você",
@@ -201,6 +204,7 @@
             "valor" : 1
         },
         {
+            "id": "2",
             "label": "Outlets",
             "titulo": "Saldão",
             "descricao": "Saldão de ofertas",
