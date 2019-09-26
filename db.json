@@ -160,5 +160,57 @@
                 }
             ]
         }
+    ],
+    "adm-vitrines": [
+        {
+            "label": "Lançamentos",
+            "titulo": "Lançamentos",
+            "descricao": "Lançamentos de ponta, separados para você",
+            "cor": "#008000",
+            "tag_produto" : "Lançamento",
+            "ativo" : true,
+            "home" : true,
+            "ordem": 1,
+            "coluna" : "promocao",
+            "valor" : 1
+        },
+        {
+            "label": "Outlets",
+            "titulo": "Saldão",
+            "descricao": "Saldão de ofertas",
+            "cor": "#991111",
+            "tag_produto" : "Outlet",
+            "ativo" : true,
+            "home" : true,
+            "ordem": 2,
+            "coluna" : "outlet",
+            "valor" : 1
+        }
+    ],
+    "filtros-vitrines": [
+        {
+            "label": "Lançamentos",
+            "titulo": "Lançamentos",
+            "descricao": "Lançamentos de ponta, separados para você",
+            "cor": "#008000",
+            "tag_produto" : "Lançamento",
+            "ativo" : true,
+            "home" : true,
+            "ordem": 1,
+            "coluna" : "promocao",
+            "valor" : 1
+        },
+        {
+            "label": "Outlets",
+            "titulo": "Saldão",
+            "descricao": "Saldão de ofertas",
+            "cor": "#991111",
+            "tag_produto" : "Outlet",
+            "ativo" : true,
+            "home" : true,
+            "ordem": 1,
+            "coluna" : "outlet",
+            "valor" : 1
+        }
     ]
 }
