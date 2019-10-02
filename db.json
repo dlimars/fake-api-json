@@ -221,22 +221,22 @@
         {
             "id" : "1",
             "titulo" : "Relatório 1",
-            "descricao" : "Descricão teste 2"
-            "arquivo_fonte" : "arquivo.jrxml"
+            "descricao" : "Descricão teste 2",
+            "arquivo_fonte" : "arquivo.jrxml",
             "ativo" : true
         },
         {
             "id" : "2",
             "titulo" : "Relatório 2",
-            "descricao" : "Descricão teste 2"
-            "arquivo_fonte" : "arquivo.jrxml"
+            "descricao" : "Descricão teste 2",
+            "arquivo_fonte" : "arquivo.jrxml",
             "ativo" : true
         },
         {
             "id" : "3",
             "titulo" : "Relatório 3",
-            "descricao" : "Descricão teste 3"
-            "arquivo_fonte" : "arquivo.jrxml"
+            "descricao" : "Descricão teste 3",
+            "arquivo_fonte" : "arquivo.jrxml",
             "ativo" : true
         }
     ]
