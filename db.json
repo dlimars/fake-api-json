@@ -1,25 +1,148 @@
 {
-    "adm-relatorios" : [
-        {
-            "id" : "1",
-            "titulo" : "Relatório 1",
-            "descricao" : "Descricão teste 2",
-            "arquivo_fonte" : "arquivo.jrxml",
-            "ativo" : true
-        },
-        {
-            "id" : "2",
-            "titulo" : "Relatório 2",
-            "descricao" : "Descricão teste 2",
-            "arquivo_fonte" : "arquivo.jrxml",
-            "ativo" : true
-        },
-        {
-            "id" : "3",
-            "titulo" : "Relatório 3",
-            "descricao" : "Descricão teste 3",
-            "arquivo_fonte" : "arquivo.jrxml",
-            "ativo" : true
-        }
-    ]
+	"adm-relatorios" : [
+		{
+			"id" : "1",
+			"titulo" : "Relatório 1",
+			"descricao" : "Descricão teste 2",
+			"arquivo_fonte" : "arquivo.jrxml",
+			"ativo" : true
+		},
+		{
+			"id" : "2",
+			"titulo" : "Relatório 2",
+			"descricao" : "Descricão teste 2",
+			"arquivo_fonte" : "arquivo.jrxml",
+			"ativo" : true
+		},
+		{
+			"id" : "3",
+			"titulo" : "Relatório 3",
+			"descricao" : "Descricão teste 3",
+			"arquivo_fonte" : "arquivo.jrxml",
+			"ativo" : true
+		}
+	],
+	"adm-parametros" : [
+		{
+			"ordem" : "1",
+			"tipo" : "DATE",
+			"parametro" : "DATA",
+			"label" : "Data",
+			"obrigatorio" : false,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "2",
+			"tipo" : "DATETIME",
+			"parametro" : "DATA_E_HORA",
+			"label" : "Data e hora início",
+			"obrigatorio" : false,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "3",
+			"tipo" : "MONTH",
+			"parametro" : "MES",
+			"label" : "Mês",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "4",
+			"tipo" : "MONTH_YEAR",
+			"parametro" : "MES_ANO",
+			"label" : "Mês/Ano de início",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "5",
+			"tipo" : "MONTH_YEAR",
+			"parametro" : "MES_ANO",
+			"label" : "Mês/Ano de início",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "6",
+			"tipo" : "SELECT",
+			"parametro" : "COLABORADOR",
+			"label" : "Colaborador",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : "SQL",
+			"opcoes" : "SELECT ID AS CHAVE, NOME AS VALOR FROM AUTOATENDIMENTO.COLABORADOR"
+		},
+		{
+			"ordem" : "7",
+			"tipo" : "MULTISELECT",
+			"parametro" : "COLABORADORES",
+			"label" : "Colaboradores",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : "SQL",
+			"opcoes" : "SELECT ID AS CHAVE, NOME AS VALOR FROM AUTOATENDIMENTO.COLABORADOR"
+		},
+		{
+			"ordem" : "8",
+			"tipo" : "RADIO",
+			"parametro" : "OPERADOR",
+			"label" : "Colaboradores",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : "SQL",
+			"opcoes" : "SELECT ID AS CHAVE, NOME AS VALOR FROM AUTOATENDIMENTO.COLABORADOR"
+		},
+		{
+			"ordem" : "9",
+			"tipo" : "CHECKBOX",
+			"parametro" : "OPERADORES",
+			"label" : "Colaboradores",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : "SQL",
+			"opcoes" : "SELECT ID AS CHAVE, NOME AS VALOR FROM AUTOATENDIMENTO.COLABORADOR"
+		},
+		{
+			"ordem" : "10",
+			"tipo" : "TEXT",
+			"parametro" : "STATUS",
+			"label" : "Status do pedido",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : null,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		},
+		{
+			"ordem" : "10",
+			"tipo" : "NUMBER",
+			"parametro" : "REGISTROS_POR_PAGINA",
+			"label" : "Registros por página",
+			"obrigatorio" : true,
+			"valorpadrao_tipo" : "TEXT",
+			"valorpadrao" : 10,
+			"opcoes_tipo" : null,
+			"opcoes" : null
+		}
+	]
 }
