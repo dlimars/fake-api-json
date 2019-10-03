@@ -6,7 +6,8 @@
 			"descricao" : "Descricão teste 2",
 			"arquivo_fonte" : "arquivo.jrxml",
 			"ativo" : true,
-			"perfis" : [1, 2]
+			"perfis" : [1, 2],
+			"parametros": []
 		},
 		{
 			"id" : "2",
@@ -14,7 +15,8 @@
 			"descricao" : "Descricão teste 2",
 			"arquivo_fonte" : "arquivo.jrxml",
 			"ativo" : true,
-			"perfis" : [1]
+			"perfis" : [1],
+			"parametros": []
 		},
 		{
 			"id" : "3",
@@ -22,7 +24,8 @@
 			"descricao" : "Descricão teste 3",
 			"arquivo_fonte" : "arquivo.jrxml",
 			"ativo" : true,
-			"perfis" : [2]
+			"perfis" : [2],
+			"parametros": []
 		}
 	],
 	"adm-parametros" : [
