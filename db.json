@@ -150,5 +150,35 @@
 			"opcoes_tipo" : null,
 			"opcoes" : null
 		}
+	],
+	"b2b-relatorios" : [
+		{
+		    "id": 1,
+		    "titulo": "Colaboradores B2B",
+		    "descricao": "Lista de Colaboradores cadastrados no B2B",
+		    "tipo": "TABELA",
+		    "thumb": null
+		},
+		{
+		    "id": 2,
+		    "titulo": "Compras últimos meses",
+		    "descricao": "Lista de pedidos últimos X meses no B2B",
+		    "tipo": "TABELA",
+		    "thumb": null
+		},
+		{
+		    "id": 3,
+		    "titulo": "Pedidos parados",
+		    "descricao": "Lista de parados há mais de 1 mês no B2B",
+		    "tipo": "TABELA",
+		    "thumb": null
+		},
+		{
+		    "id": 3,
+		    "titulo": "Produtos mais comprados",
+		    "descricao": "Lista os produtos que eu mais compro",
+		    "tipo": "TABELA",
+		    "thumb": null
+		}
 	]
 }
